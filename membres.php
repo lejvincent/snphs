@@ -1,8 +1,8 @@
-<?php include 'prog/init.php'; ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/init.php'); ?>
 <?php
   $titrepage ="Membres";
 ?>
-<?php include 'prog/top.php'; ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/top.php'); ?>
 <body>
   <div class="container">
     <header>
@@ -69,4 +69,4 @@
       ?>
     </div>
   </div>
-  <?php include 'prog/bot.php'; ?>
+  <?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/bot.php'; ?>

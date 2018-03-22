@@ -111,21 +111,6 @@ $("#flatpickr").flatpickr({
     dateFormat : "d-m-Y",
 });
 
-  //==============================================================================
-
-  // =============================================================================
-  // SCRIPT PAGE PROFIL
-  // =============================================================================
-  var Articles = document.getElementById('publication');
-  var zone = document.getElementById("texte");
-
-  function poster()
-  {
-    if (zone.value != "")
-    {
-      Articles.innerHTML = Articles.outerHTML + '<div class="card">'+'<div class="card-body">'+'<p class="card-text">' + zone.value + '</p>'+'</div>' + '</div>';
-    }
-  }
   // =============================================================================
   // SCRIPT PAGE CATEGORIES
   // =============================================================================

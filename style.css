@@ -155,116 +155,17 @@ h5 a{
 h5 a:hover{
  color: #ffc107;
 }
-
 /* ========================================================================== */
-#barreentete {
-	background-color: white;
+/* PAGE PROFIL */
+#sideprofil {
+  display: flex;
+  flex-direction: column;
 }
 
-#barreentete ul {
-	list-style-type: none;
-	margin-top: 4px;
+#sideprofil img {
+  width: 150px;
+  height: 150px;
 }
-
-#barreentete li {
-	display: inline;
-}
-
-#containerhaut {
-	margin-bottom: 2%;
-}
-
-#navigation {
-	margin-bottom: 1%;
-}
-
-#containermilieu {
-	padding: 0;
-}
-
-#entete {
-	margin: 0 0 4% 0;
-	padding: 1%;
-}
-
-.img_list {
-	width: 25px;
-	height: 25px;
-}
-
-.friend_button {
-	text-align: right;
-}
-
-
-#entetecategories {
-	margin: 0 0 4% 0;
-	padding: 1%;
-	text-align: center;
-}
-#contenucategories .card {
-	margin: 10px;
-	width: 15rem;
-}
-
-iframe {
-	width: auto;
-	height: auto;
-}
-
-#entete h2 {
-	text-align: right;
-}
-
-#texte {
-	margin-bottom: 5px;
-}
-
-#boutonpublier {
-	width: auto;
-	margin-top: 1%;
-}
-
-#mapublication {
-	padding: 3%;
-	width: auto;
-	text-align: center;
-}
-.card {
-	margin-bottom: 2%;
-}
-#siderpub {
-	text-align: center;
-}
-
-/*#siderpub img {
-  height:1000px;
-}*/
-
-/* CSS pour API_amis */
-
-#API_amis{
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: .25em;
-  background-color: #fff;
-}
-
-.a {
-  padding-left:.75em;
-}
-
-#API_amis img{
-  margin-right:.5em;
-  border-radius: 50%;
-  width: 55px;
-  height: 55px;
-}
-
-#API_amis h6{
-  text-align: center;
-  }
-
-
 /* ========================================================================== */
 
 @media all and (max-width: 995px)

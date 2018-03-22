@@ -61,10 +61,15 @@ $titrepage = "Profil de " . $donnees['pseudo'];
   <div class="container" id="containermilieu">
     <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <div class="row">
-      <div class="col-12">
         <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-        <div class="row align-items-end" id="entete">
-          <div class="col-9">
+        <div class="col-3">
+          <div id ="API_amis">
+            <p><h6>Happy Friends Connectés</h6></p>
+          </div>
+        </div>
+        <div class="col-6"></div>
+          <div class="col-3" id="sideprofil">
+            <img class="img-fluid" src="images/user_logo.png">
             <h2><?php echo $donnees['pseudo']; ?></h2>
             <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
             <button class="btn btn-warning" data-toggle="modal" data-target="#envoyermessage">Messages</button>
@@ -149,32 +154,9 @@ $titrepage = "Profil de " . $donnees['pseudo'];
             </div>
             <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
           </div>
-          <div class="col-3">
-            <img class="img-fluid" src="images/user_logo.png">
-          </div>
         </div>
-        <div class="row">
-          <div class="col-3" id="siderpub">
-            <img class="img-fluid" src="images/banniere-verticale-happysmile.gif">
-          </div>
-          <div class="col-6">
-            <div class="card" id="mapublication">
-              <textarea type="text" name="texte" id="texte"></textarea>
-              <input class="btn btn-warning" type="button" value="Publier" onclick="poster(this);" id="boutonpublier">
-            </div>
-            <div id="publication">
-            </div>
-          </div>
-          <div class="col-3">
-            <div id ="API_amis">
-              <p><h6>Happy Friends Connectés</h6></p>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     </div>
-  </div>
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->

@@ -1,8 +1,8 @@
-<?php include ($_SERVER["DOCUMENT_ROOT"].'snphs/prog/init.php'); ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/init.php'); ?>
 <?php
 $titrepage = "Catégories";
 ?>
-<?php include ($_SERVER["DOCUMENT_ROOT"].'snphs/prog/top.php'); ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/top.php'); ?>
 <body>
 
   <div class="container">
@@ -164,4 +164,4 @@ $titrepage = "Catégories";
   </div>
 </div>
 <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<?php include ($_SERVER["DOCUMENT_ROOT"].'snphs/prog/bot.php'); ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/bot.php'); ?>

@@ -1,8 +1,8 @@
-<?php include 'prog/init.php' ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'snphs/prog/init.php'); ?>
 <?php
 $titrepage = "Connexion / Inscription";
 ?>
-<?php include 'prog/top.php' ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'snphs/prog/top.php'); ?>
 <body>
 
   <div class="container">
@@ -131,4 +131,4 @@ $titrepage = "Connexion / Inscription";
   </div>
 
 <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<?php include 'prog/bot.php' ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'snphs/prog/bot.php'); ?>

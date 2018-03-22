@@ -69,4 +69,4 @@
       ?>
     </div>
   </div>
-  <?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/bot.php'; ?>
+  <?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/bot.php'); ?>

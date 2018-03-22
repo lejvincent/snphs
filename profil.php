@@ -1,4 +1,4 @@
-<?php include 'prog/init.php' ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/init.php'); ?>
 <?php
 if (!empty($_GET)) {
 $reponse = $bdd->query('SELECT * FROM users WHERE IDuser = '.$_GET['ID']) or die(print_r($bdd->errorInfo()));
@@ -11,7 +11,7 @@ $donnees = $reponse->fetch();
 $titrepage = "Profil de " . $donnees['pseudo'];
 }
 ?>
-<?php include 'prog/top.php' ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/top.php'); ?>
 <body>
 
   <div class="container">
@@ -178,4 +178,4 @@ $titrepage = "Profil de " . $donnees['pseudo'];
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<?php include 'prog/bot.php' ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"].'/snphs/prog/bot.php'); ?>
